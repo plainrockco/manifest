@@ -1,0 +1,24 @@
+{
+  "name": "manifest",
+  "version": "1.0.0",
+  "description": "Premade Simple Docker container for https://manifest.build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "manifest": "node node_modules/manifest/scripts/watch/watch.js",
+    "manifest:seed": "node node_modules/manifest/dist/manifest/src/seed/scripts/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plainrockco/manifest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plainrockco/manifest/issues"
+  },
+  "homepage": "https://github.com/plainrockco/manifest#readme",
+  "dependencies": {
+    "manifest": "^4.12.2"
+  }
+}
