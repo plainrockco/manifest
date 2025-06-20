@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/manifest/dist/manifest/src/main.js",
     "manifest": "node node_modules/manifest/scripts/watch/watch.js",
     "manifest:seed": "node node_modules/manifest/dist/manifest/src/seed/scripts/seed.js"
   },
